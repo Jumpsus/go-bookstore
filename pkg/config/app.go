@@ -1,10 +1,9 @@
 package config
 
-/* jinzhu is for open database from db product i.e. mysql */
-import{
+import(
 	"github.com/jinzhu/gorm"
 	_ "github.com/jinzhu/gorm/dialects/mysql"
-}
+)
 
 var (
 	db * gorm.DB
@@ -18,6 +17,6 @@ func Connect(){
 	db = d
 }
 
-func GetDB(){
+func GetDB() *gorm.DB{
 	return db
 }
