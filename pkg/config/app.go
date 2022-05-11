@@ -11,7 +11,7 @@ var (
 )
 
 func Connect(){
-	d, err := gorm.Open("mysql", "jumpsus:Password/simplerest?charset=utf8&parseTime=True&loc=Local")
+	d, err := gorm.Open("mysql", "Jumpsus:Password/simplerest?charset=utf8&parseTime=True&loc=Local")
 	if err != nil{
 		panic(err)
 	}

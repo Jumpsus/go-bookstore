@@ -3,7 +3,7 @@ package controllers
 import(
 	"encoding/json"
 	"fmt"
-	"gtihub/com/gorilla/mux"
+	"github.com/gorilla/mux"
 	"net/http"
 	"strconv"
 	"github.com/Jumpsus/go-bookstore/pkg/utils"
