@@ -6,8 +6,8 @@ import(
 	"gtihub/com/gorilla/mux"
 	"net/http"
 	"strconv"
-	"github.com/jumpsus/go-bookstore/pkg/utils"
-	"github.com/jumpsus/go-bookstore/pkg/models"
+	"github.com/Jumpsus/go-bookstore/pkg/utils"
+	"github.com/Jumpsus/go-bookstore/pkg/models"
 )
 
 var NewBook models.Book
